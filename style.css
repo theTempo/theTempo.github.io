@@ -25,9 +25,28 @@
 -    transition: background 3500ms ease;
 -}*/
 
+#images {
+    align-items: center;
+}
+
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
