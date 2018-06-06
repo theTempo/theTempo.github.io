@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Raleway|Roboto+Condensed|Ubuntu+Condensed" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Branch</title>
@@ -15,7 +15,7 @@
 <body>
     <div id="">
         <div class="container">
-            <h1 class="center-align roboto">J</h1>
+            <h1 class="center-align roboto">Jose Torres</h1>
         </div>
         <div>
             <p class="center-align">This is a test site about me. It's still in its early stages, but this site will help you know a little bit more about me.</p>
@@ -49,10 +49,10 @@
                 </div>
               </li>
               <li>
-                    <img src="TwoDoor.jpg"> 
+                    <img src="TwoDoor1.jpg"> 
                     <div class="caption left-align">
-                      <h3>Two Door Cinema Club</h3>
-                      <h5 class="light grey-text text-lighten-3">Favorite song: You're not Stubborn</h5>
+                      <h3 style=>Two Door Cinema Club</h3>
+                      <h5 class="light grey-text text-lighten-3">Favorite song: You're Not Stubborn</h5>
                     </div>
                   </li>
             </ul>
@@ -60,15 +60,30 @@
     <div>
         <h4 class="center-align ubuntu">Video Games</h4>
     </div>
+
+    <div class="parallax-container">
+            <div class="parallax"><img src="Dorado.jpg"></div>
+          </div>
+          <div class="section white">
+            <div class="row container">
+              <h4 class="header">Video Games</h4>
+              <p class="grey-text text-darken-3 lighten-3">I love to play video games, I always have since I was a kid. The games that I spend the most time on at the moment are <a href="https://na.leagueoflegends.com/en/">League of Legends,</a> and 
+                <a href="http://playoverwatch.com/en-us/">Overwatch.</a></p>
+            </div>
+          </div>
+          <div class="parallax-container">
+            <div class="parallax"><img src="Rialto.jpg"></div>
+          </div>
+
     <div>
-        <p>I love to play video games, I always have since I was a kid. The games that I spend the most time on at the moment are <a href="">League of Legends,</a> and Overwatch</p>
+        <p>Both of these pictures are from Overwatch.</p>
     </div>
     <div>
         <h4 class="center-align">Programming</h4>
     </div>
     <div>
         <p>Programming is something that I knew about for a while, but I actually never really got interested in it until about a month ago.</p>
-        <p>I've been slef teaching myself HTML, CSS, JavaScript, and Python. I've seen improvements in my work, but I try to learn something new everyday.</p>
+        <p>I've been self teaching myself HTML, CSS, JavaScript, and Python. I've seen improvements in my work, but I try to learn something new everyday.</p>
     </div>
 
     <div>
@@ -82,10 +97,13 @@
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script type="text/javascript" src="materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 <script>
     $(document).ready(function(){
     $('.slider').slider();
+  });
+  $(document).ready(function(){
+    $('.parallax').parallax();
   });
         
 </script>
