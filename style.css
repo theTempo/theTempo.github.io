@@ -50,3 +50,7 @@ a {
     padding-right: 1rem;
     padding-left: 1rem;
 }
+
+#turtle {
+    height: 100vh;
+}
