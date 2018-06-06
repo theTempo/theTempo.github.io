@@ -24,3 +24,10 @@
 -    color: #333;
 -    transition: background 3500ms ease;
 -}*/
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
