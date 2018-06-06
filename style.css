@@ -22,7 +22,7 @@
     border-radius: 50px;
     text-decoration: none;
     color: #333;
-    transition: background 3500ms ease;
+    transition: background 500ms ease;
 }
 
 #images {
@@ -53,4 +53,9 @@ a {
 
 #turtle {
     height: 100vh;
+}
+
+.btn1:hover {
+    background: #f4f4f4;
+
 }
