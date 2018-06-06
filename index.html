@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lobster+Two|Raleway|Roboto+Condensed|Ubuntu+Condensed" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <link rel="stylesheet" href="style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Branch</title>
@@ -60,8 +60,23 @@
     <div>
         <h4 class="center-align ubuntu">Video Games</h4>
     </div>
+
+    <div class="parallax-container">
+            <div class="parallax"><img src="Dorado.jpg"></div>
+          </div>
+          <div class="section white">
+            <div class="row container">
+              <h4 class="header">Video Games</h4>
+              <p class="grey-text text-darken-3 lighten-3">I love to play video games, I always have since I was a kid. The games that I spend the most time on at the moment are <a href="https://na.leagueoflegends.com/en/">League of Legends,</a> and 
+                <a href="http://playoverwatch.com/en-us/">Overwatch.</a></p>
+            </div>
+          </div>
+          <div class="parallax-container">
+            <div class="parallax"><img src="Rialto.jpg"></div>
+          </div>
+
     <div>
-        <p>I love to play video games, I always have since I was a kid. The games that I spend the most time on at the moment are <a href="">League of Legends,</a> and <a href="">Overwatch.</a></p>
+        <p>Both of these pictures are from Overwatch.</p>
     </div>
     <div>
         <h4 class="center-align">Programming</h4>
@@ -82,10 +97,13 @@
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-<script type="text/javascript" src="materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 <script>
     $(document).ready(function(){
     $('.slider').slider();
+  });
+  $(document).ready(function(){
+    $('.parallax').parallax();
   });
         
 </script>
